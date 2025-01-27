@@ -1,0 +1,49 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+.env
+.env/
+# Cache and System Files
+__pycache__/
+.DS_Store
+
+# Configuration and Data Files
+config.json
+db_objects.json
+data/
+attachment_data.json
+email_info.json
+user_info.json
+output_response.json
+testing_output_response.json
+email.txt
+
+# Output and Processed Data
+Output/
+processed_emails/
+processed_emails_split/
+result_find_invoice_number.txt
+
+# Build and Distribution Files
+build/
+dist/
+copy-dist
+*.spec
+
+# Scripts and Testing
+testing.py
+
+# Model Data and Miscellaneous Files
+model_data.csv
+invoice
+
+
+#logs
+logs
+logs/
+logs/*
+app.log
+
+testing_bytes.py
+testing_s3.py
